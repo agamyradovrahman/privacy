@@ -85,7 +85,7 @@
   <p class="sub">
     <strong>Rug Rally</strong> — published by AGPARR GAMES<br>
     Package name: <code>com.agparrgames.rugrally</code><br>
-    Effective date: 21 September 2026 · Last updated: 15 October 2026
+    Effective date: 21 September 2026 · Last updated: 17 October 2026
   </p>
 
   <p>
@@ -99,9 +99,10 @@
       <strong>In short:</strong> The Game has no user accounts and does not ask for your name,
       email address, phone number, contacts, photos, or precise location. It displays no ads and
       contains no in-app purchases. It collects anonymous device and gameplay information through
-      an analytics service so we can improve its levels, and it uses the Meta (Facebook) SDK, which
-      reads your device's advertising identifier and records app events such as installs and app
-      launches so that we can measure our own advertising campaigns.
+      an analytics service so we can improve its levels. It also uses the Adjust and Meta (Facebook)
+      SDKs, which read your device's advertising identifier and record app events such as installs and
+      app launches so that we can measure our own advertising campaigns. This data is also available
+      to our publishing partner, Voodoo.
     </p>
   </div>
 
@@ -126,12 +127,12 @@
         </tr>
         <tr>
           <td>Advertising identifier</td>
-          <td>Your device's Google Advertising ID (GAID), read by the Meta SDK</td>
+          <td>Your device's Google Advertising ID (GAID), read by the Adjust and Meta SDKs</td>
           <td>Measuring and attributing our advertising campaigns (for example, learning whether an install came from one of our ads)</td>
         </tr>
         <tr>
           <td>App events</td>
-          <td>App installs, app launches and sessions, recorded by the Meta SDK</td>
+          <td>App installs, app launches and sessions, recorded by the Adjust and Meta SDKs</td>
           <td>Measuring the effectiveness of our advertising campaigns</td>
         </tr>
         <tr>
@@ -141,7 +142,7 @@
         </tr>
         <tr>
           <td>Gameplay and app activity</td>
-          <td>Level started, level completed or failed, time spent on a level, number of moves, session length</td>
+          <td>Level started, level completed or failed, number of moves, session length</td>
           <td>Understanding difficulty balance and improving level design</td>
         </tr>
         <tr>
@@ -185,6 +186,12 @@
       <a href="https://gameanalytics.com/privacy" target="_blank" rel="noopener">gameanalytics.com/privacy</a>
     </li>
     <li>
+      <strong>Adjust</strong> (Adjust GmbH) — install attribution and measurement of advertising
+      campaigns. The Adjust SDK collects your device's advertising identifier, device information,
+      IP address and app events (such as installs and sessions).
+      <a href="https://www.adjust.com/terms/privacy-policy/" target="_blank" rel="noopener">adjust.com/terms/privacy-policy</a>
+    </li>
+    <li>
       <strong>Meta (Facebook) SDK</strong> — measurement and attribution of our advertising
       campaigns. The Meta SDK collects your device's advertising identifier and app events (such as
       app installs and app launches) and shares them with Meta Platforms, Inc.
@@ -196,14 +203,23 @@
     </li>
   </ul>
   <p>
+    <strong>Publishing partner.</strong> The Game is tested and may be published in cooperation
+    with <strong>Voodoo SAS</strong>, which provides the SDK package (TinySauce) that contains the
+    services above. The analytics, attribution and campaign data described in this policy are
+    also accessible to Voodoo for the same purposes (measuring the Game's performance and its
+    advertising campaigns).
+    <a href="https://www.voodoo.io/privacy" target="_blank" rel="noopener">voodoo.io/privacy</a>
+  </p>
+  <p>
     The Game does not display advertisements. We do not sell your personal information, and we
-    do not share it with any parties other than the service providers listed above.
+    do not share it with any parties other than the service providers and the publishing partner
+    listed above.
   </p>
 
   <h2>5. Advertising identifier and your choices</h2>
   <p>
     We advertise the Game on Facebook and Instagram. To learn which of our ads lead to installs,
-    the Meta SDK reads your device's advertising identifier and sends app events to Meta. This
+    the Adjust and Meta SDKs read your device's advertising identifier and send app events to Adjust and Meta. This
     information is used only to measure our own campaigns; the Game shows no ads to you.
   </p>
   <p>
@@ -222,7 +238,7 @@
   <h2>7. Data retention</h2>
   <p>
     Analytics data is retained by GameAnalytics in aggregated, anonymous form, and advertising
-    measurement data is retained by Meta, each according to its own retention schedule. Because
+    measurement data is retained by Adjust and Meta, each according to its own retention schedule. Because
     the Game has no accounts, we hold no personal profile that could identify you individually.
   </p>
 
